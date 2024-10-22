@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'Helvetica';
+    src: url('./assets/fonts/Helvetica.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url('./assets/fonts/Helvetica-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url('./assets/fonts/Helvetica-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Helvetica', sans-serif;
+    background-color: #474747;
+    color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+#placeholder-text {
+    font-size: 1.2em;
+    line-height: 1.5;
+}
